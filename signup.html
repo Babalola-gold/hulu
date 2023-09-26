@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="./bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid" style="height: 7vh;">
+            <p style="font-weight: 900; font-size: 25px;">hulu</p>
+            <p style="font-weight: 900; font-size: 20px;"><a style="text-decoration: none; color: black;" href="./login.html">LOG IN</a></p>
+        </div> 
+    </nav>
+
+    <div class="choose-plan" style="text-align: center;">
+        <h1 style="font-weight: 800; font-size: 50px;">Choose Your Plan</h1> <br>
+        <p>Switch plans or cancel anytime.</p> <br>
+    </div>
+
+   <div class="container-tab">
+    <ul class="nav nav-pills mb-3" style="display: flex; justify-content: center;" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" style="background: none; color: black; border-bottom: 5px solid; font-weight: 600;" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">BASE PLAN</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" style="background: none; color: black; border-bottom: 4px solid;font-weight: 600;"  id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">BUNDLE/ SAVE</button>
+        </li>
+        
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div style="display: grid; grid-template-columns: 33% 33% 33%;">
+                <div class="loma mx-1" style="background-color: rgb(247,247,249); border:5,10px;display: block; height: 70vh;">
+                    <div class="div-0ne" style="text-align: center;"> <br><br><br>
+                        <h3 style="font-weight: 700;">Hulu (No Ads)</h3>
+                        <div style="color: rgb(41,168,105); font-weight: 500;"><span>Get First Month Free, Then</span></div> <br>
+                        <div style="font-weight: 800; font-size: 25px;">$14.99/ month*</div> <br>
+                        <p>Our Hulu (No Ads) plan lets you watch exclusive series, hit movies, Originals, kids shows, and tons more with no ad interruptions.</p> <br><br><br>
+                        <button style="height: 7vh; border-radius: 5px; width:70%; background-color: white; border: none; border: 2px black solid;"><a style="text-decoration: none; color: black; font-weight: 500;" href="">SELECT</a></button> <br><br>
+                        <p style="font-size: 12px;">*Price will increase to $17.99/month on 10/12/2023.</p>
+                    </div>
+                </div>
+
+                <div class="loma mx-1" style="background-color: rgb(247,247,249); height: 75vh;">
+                    <div class="div-two" style="text-align: center;"> <br>
+                        <button style="height: 5vh; width: 70%; border-radius: 6px; background-color: rgb(41,168,105);"><a style="text-decoration: none; color: white;" href="">MOST POPULAR</a></button> <br><br>
+                        <h3 style="font-weight: 700;">Hulu</h3>
+                        <div><span style="color: rgb(41,168,105); font-weight: 500;">Get First Month Free, Then</span></div> <br>
+                        <div style="font-weight: 800; font-size: 25px;">$7.99/month</div> <br>
+                        <div>
+                        <p>Our Hulu (With Ads) plan lets you watch exclusive series, hit movies, Originals, kids shows, and tons more.</p> <br><br><br>
+                        <button style="height: 7vh; border-radius: 5px; width:75%; background-color: black; border: none;"><a style="text-decoration: none; color: white;" href="">SELECT</a></button>
+                        </div>
+                    </div> <br><br><br><br><br><br>
+                    <div style="text-align: center;">
+                        <a style="text-decoration: none; font-size: 14px;" href="">Looking for our student discount?</a>
+
+                        
+                    </div>
+
+                
+                    
+                    
+                </div>
+                
+                
+
+                <div class="loma mx-1" style="background-color: rgb(247,247,249); height: 70vh;">
+                    <div class="div-three" style="text-align: center;"> <br><br><br>
+                        <h3 style="font-weight: 700;">Hulu + Live TV</h3> 
+                        <div style="color: rgb(41,168,105); font-weight: 500;"><span>Includes Disney+ and ESPN+</span></div> <br>
+                        <div style="font-weight: 800; font-size: 25px;">$49.99/month</div> <br>
+                        <div>for 3 mos., then regular monthly price*</div>
+                        <div>
+                            <p>Access 90+ channels with Live TV, Unlimited DVR, endless entertainment with Disney+ (With Ads), live sports with ESPN+ (With Ads), and award-winning Hulu originals with Hulu (With Ads).</p> <br>
+                            <button style="height: 7vh; border-radius: 5px; width:70%; background-color: white; border: none; border: 2px black solid;"><a style="text-decoration: none; color: black; font-weight: 500;" href="">SELECT</a></button>
+                            
+                        </div>
+                        <a style="text-decoration: none;" href="">Learn more</a>
+                        <p style="font-size: 12px;">*Price will increase to $76.99/month on 10/12/2023.</p>
+
+                    </div>
+                    <p style="font-size: 13px; display: inline-flex;">*Auto-renews at $76.99/month at the expiration of 3-month promotional period (if applicable).</p>
+
+                    <div style="text-align: center;">
+                        <a style="text-decoration: none; font-size: 12px;" href="">Terms Apply</a>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="kodak" style="display: grid; grid-template-columns: 33% 33% 33%;">
+                <div class="loma mx-1" style="background-color: rgb(247,247,249); border:5,10px;display: block; height: 75vh;">
+                    <div class="div-0ne" style="text-align: center;"> <br><br><br>
+                        <h3 style="font-weight: 700;">Disney Bundle Duo Basic
+                        </h3>
+                        <div style="color: rgb(41,168,105); font-weight: 500;"><img style="width: 30%;" src="original (2).png" alt=""></div> <br>
+                        <div style="font-weight: 800; font-size: 25px;">$9.99/ month*</div> <br>
+                        <p>Access endless entertainment with Disney+ (With Ads), and award-winning Hulu Originals with Hulu (With Ads).</p> <br><br><br>
+                        <button style="height: 7vh; border-radius: 5px; width:70%; background-color: white; border: 2px black solid;"><a style="text-decoration: none; color: black; font-weight: 500;" href="">SELECT</a></button> <br>
+                        <div><a style="text-decoration: none;" href="">Learn More</a></div> <br>
+                        <p style="font-size: 12px;">*Price will increase to $17.99/month on 10/12/2023.</p> 
+
+                        <a style="text-decoration: none; font-size: 12px;" href="">Terms Apply</a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="loma mx-1" style="background-color: rgb(247,247,249); height: 80vh;">
+                    <div class="div-two" style="text-align: center;"> <br> 
+                        <button style="height: 5vh; width: 60%; border-radius: 6px; background-color: rgb(41,168,105);"><a style="text-decoration: none; color: white;" href="">SAVE 49% ($12.98/MO. OFF)*</a></button> <br><br>
+                        <h3 style="font-weight: 700;">Disney Bundle Trio Basic</h3>
+                        <div><img style="width: 30%;" src="ckdz36xqi7zz019ym0b2seyqk-dplus-logo-0-1-2-0.full (1).png" alt=""></div>
+                         <br>
+                        <div style="font-weight: 800; font-size: 25px;">$12.99/month</div> <br>
+                        <div>
+                        <p>Access live sports with ESPN+ (With Ads), endless entertainment with Disney+ (With Ads), and award-winning Hulu Originals with Hulu (With Ads). *Savings compared to regular monthly price of each service.</p> <br>
+                        <button style="height: 7vh; border-radius: 5px; width:70%; background-color: black; border: none;"><a style="text-decoration: none; color: white;" href="">SELECT</a></button> <br>
+                        <div><a style="text-decoration: none;" href="">Learn More</a></div> <br><br> <br>
+                        
+                        </div>
+                        <a style="text-decoration: none; font-size: 12px;" href="">Terms Apply</a>
+                    </div>
+                </div>
+
+                <div class="loma mx-1" style="background-color: rgb(247,247,249); height: 75vh;">
+                    <div class="div-three" style="text-align: center;"> <br><br><br>
+                        <h3 style="font-weight: 700;">Disney Bundle Trio Premium</h3> 
+                        <div><img style="width: 30%;" src="ckdz36xqi7zz019ym0b2seyqk-dplus-logo-0-1-2-0.full (1).png" alt=""></div>
+                        <br>
+                        <div style="font-weight: 800; font-size: 25px;">$49.99/month</div> <br>
+                        <div>for 3 mos., then regular monthly price*</div>
+                        <div>
+                            <p>Access live sports with ESPN+ (With Ads), endless entertainment with Disney+ (No Ads), and award-winning Hulu Originals with Hulu (No Ads).</p> <br>
+                            <button style="height: 7vh; border-radius: 5px; width:70%; background-color: white; border: none; border: 2px black solid;"><a style="text-decoration: none; color: black; font-weight: 500; " href="">SELECT</a></button> <br>
+                            <div><a style="text-decoration: none;" href="">Learn More</a></div> <br>
+                            <p style="font-size: 12px;">*Price will increase to $17.99/month on 10/12/2023.</p> <br>
+                            <p style="font-size: 12px;">A few excluded shows play with ads. Learn More</p>
+                        </div>
+                        <a style="text-decoration: none; font-size: 12px;" href="">Terms Apply</a>
+                    </div>
+                </div>
+                            
+                            
+            </div> <br><br><br><br>
+            <div style="display: flex; justify-content: center;">
+                <div style="display: flex; justify-content: center; text-align: center; background-color: rgb(247,247,249); width: 65%; height: 35vh; border-radius: 15px; border: 3px black solid; border-bottom: 4px green solid; border-right: 4px green solid;"> 
+                    <div style="width: 15%;"> <br><br><br>
+                        <img style="width: 100%; height: 10vh;" src="superbundle-logo-color.svg" alt="">
+                    </div> 
+                    <div> 
+                        <div style="width: 60%; margin-left: 10%;"> <br>
+                            <h3 style="font-size: 16px; font-weight: 700;">Hulu (No Ads) + Live TV</h3>
+                            <p style="text-align: left;">Get Hulu (No Ads) + Live TV for $82.99/month*</p>
+                            <a style="text-decoration: none; font-size: 14px;" href="">More Details</a>
+                            <p style="font-size: 15px;">*Price will increase to $89.99/month on 10/12/2023</p>
+                        </div>
+                    </div>
+                    <div style="width: 15%;"> <br><br><br><br>  
+                        <button style="width: 100%; height: 7vh; border-radius: 5px;">SELECT</button>
+                        <div><a style="text-decoration: none; font-size: 14px;" href="">Terms Apply</a></div>
+                    </div>
+                </div>
+            </div>
+                        
+                        
+        </div>
+
+        
+                             
+    </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <ul class="container-rapid">
+            <li><a style="text-decoration: none; color: grey;" href="">About Ads</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Subscriber Agreement</a</li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Privacy Policy</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Do Not Sell My Personal Information</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Your California Privacy Rights</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">© 2023 Hulu, LLC</a></p></li>
+
+        </ul>
+   </div>
+
+
+   
+
+    <div class="manama w-100 h-100" style="width: 100%;">
+
+        
+        <div class="mama mx-1">
+            <div class="a-ref">
+                
+                <center>
+                    <p style="background-color: rgb(28,231,131);font-weight: 700; text-align: center;">MOST POPULAR</p> <br>  
+                    <h3 style="text-align: center;">Hulu</h3> <br><br><br>
+                    <button style="width: 32px; height: 32px; border-radius: 100%;"></button>
+                </center>    
+            </div>
+        </div>
+
+        <div class="mama mx-1">
+            <div class="a-ref">
+                <center>
+                    <p>BUNDLE  & SAVE</p>
+                    <h3>Disney Bundle Duo Basic</h3> <br><br>
+                    <button style="width: 32px; height: 32px; border-radius: 100%;"></button>
+                </center>
+            </div>
+        </div>
+
+        <div class="mama mx-1">
+            <div class="a-ref"> 
+
+                <center>
+                    <p>BUNDLE  & SAVE</p>
+                    <h3>Disney Bundle Trio Basic</h3> <br><br>
+                    <button style="width: 32px; height: 32px; border-radius: 100%;"></button>
+                </center>
+                
+            </div>
+        
+        </div>
+
+        <div class="mama mx-1">
+            <div class="a-ref">
+                <center>
+                    <p>BUNDLE  & SAVE</p>
+                    <h3 style="font-size: 25px;">Disney Bundle Premium Basic</h3> <br><br>
+                    <button style="width: 32px; height: 32px; border-radius: 100%;"></button>
+                </center>
+                
+            </div>
+        </div>
+
+        <div class="mama mx-1">
+            <div class="a-ref"> 
+                <center>
+                    <p style="font-size: 20px;">Hulu + Live TV
+                        Includes Disney+ and ESPN+</p> <br><br>
+                    <button style="width: 32px; height: 32px; border-radius: 100%;"></button>
+                </center>
+            </div>
+        </div>
+
+            
+
+        
+    </div>
+
+    <br><br>
+
+   
+    <div class="dianey_bundle">
+        <div>
+            <img style="width: 20%;" src="superbundle-logo-color.svg" alt=""> <br><br>
+        </div>
+        <div style="display: block;">
+            <p class="plan__description--short">Get Disney Bundle Duo Basic for $9.99/month.</p>
+            
+        </div>
+    
+        Access endless entertainment with Disney+ (With Ads), and award- <br>winning Hulu Originals with Hulu (With Ads).
+
+        <div>
+            <a href="" target="_blank" rel="noreferrer" class="plan__more-details">Learn More</a>
+        </div>
+    </div>    <br><br>
+
+    <div class="last-div">
+        <div style="display: flex; justify-content: center; text-align: center; background-color: rgb(247,247,249); width: 65%; height: 35vh; border-radius: 15px; border: 3px black solid; border-bottom: 4px green solid; border-right: 4px green solid;"> 
+            <div style="width: 15%;"> <br><br><br>
+                <img style="width: 100%; height: 10vh;" src="superbundle-logo-color.svg" alt="">
+            </div> 
+            <div> 
+                <div style="width: 60%; margin-left: 10%;"> <br>
+                    <h3 style="font-size: 16px; font-weight: 700;">Hulu (No Ads) + Live TV</h3>
+                    <p style="text-align: left;">Get Hulu (No Ads) + Live TV for $82.99/month*</p>
+                    <a style="text-decoration: none; font-size: 14px;" href="">More Details</a>
+                    <p style="font-size: 15px;">*Price will increase to $89.99/month on 10/12/2023</p>
+                </div>
+            </div>
+            <div style="width: 15%;"> <br><br><br><br>  
+                <button style="width: 100%; height: 7vh; border-radius: 5px;">SELECT</button>
+                <div><a style="text-decoration: none; font-size: 14px;" href="">Terms Apply</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last-div2">
+        <ul class="container-rapid">
+            <li><a style="text-decoration: none; color: grey;" href="">About Ads</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Subscriber Agreement</a</li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Privacy Policy</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Do Not Sell My Personal Information</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">Your California Privacy Rights</a></li>
+            <li><a style="text-decoration: none; color: grey;"  href="">© 2023 Hulu, LLC</a></p></li>
+
+        </ul>
+    </div>
+   
+
+    
+
+        
+
+        
+
+
+
+
+        
+
+
+            
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</html>
